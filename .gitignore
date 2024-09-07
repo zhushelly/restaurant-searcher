@@ -4,6 +4,7 @@
 *.pyc
 *.swp
 .DS_Store
+.vscode/
 .atom/
 .buildlog/
 .history
@@ -27,9 +28,11 @@ migrate_working_dir/
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
+.flutter-version
 .pub-cache/
 .pub/
 /build/
+.packages
 
 # Symbolication related
 app.*.symbols
@@ -41,3 +44,14 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Android related
+.gradle/
+.android/
+app/**/*.keystore
+
+# iOS related
+ios/Pods/
+iod/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
